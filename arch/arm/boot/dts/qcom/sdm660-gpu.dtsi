@@ -68,7 +68,7 @@
 
 		qcom,chipid = <0x05010200>;
 
-		qcom,initial-pwrlevel = <6>;
+		qcom,initial-pwrlevel = <5>;
 
 		qcom,idle-timeout = <64>;
 
@@ -202,7 +202,7 @@
 				/* NOM_L1 */
 				qcom,gpu-pwrlevel@2 {
 					reg = <2>;
-					qcom,gpu-freq = <647000000>;
+					qcom,gpu-freq = <700000000>;
 					qcom,bus-freq = <11>;
 					qcom,bus-min = <10>;
 					qcom,bus-max = <12>;
@@ -247,10 +247,10 @@
 				/* Min SVS */
 				qcom,gpu-pwrlevel@7 {
 					reg = <7>;
-					qcom,gpu-freq = <160000000>;
-					qcom,bus-freq = <3>;
-					qcom,bus-min = <3>;
-					qcom,bus-max = <5>;
+					qcom,gpu-freq = <19200000>;
+					qcom,bus-freq = <2>;
+					qcom,bus-min = <2>;
+					qcom,bus-max = <3>;
 				};
 
 				/* XO */
@@ -292,7 +292,7 @@
 				/* NOM_L1 */
 				qcom,gpu-pwrlevel@2 {
 					reg = <2>;
-					qcom,gpu-freq = <647000000>;
+					qcom,gpu-freq = <700000000>;
 					qcom,bus-freq = <11>;
 					qcom,bus-min = <10>;
 					qcom,bus-max = <12>;
@@ -337,10 +337,10 @@
 				/* Min SVS */
 				qcom,gpu-pwrlevel@7 {
 					reg = <7>;
-					qcom,gpu-freq = <160000000>;
-					qcom,bus-freq = <3>;
-					qcom,bus-min = <3>;
-					qcom,bus-max = <5>;
+					qcom,gpu-freq = <19200000>;
+					qcom,bus-freq = <2>;
+					qcom,bus-min = <2>;
+					qcom,bus-max = <3>;
 				};
 
 				/* XO */
@@ -373,7 +373,7 @@
 				/* NOM_L1 */
 				qcom,gpu-pwrlevel@1 {
 					reg = <1>;
-					qcom,gpu-freq = <647000000>;
+					qcom,gpu-freq = <700000000>;
 					qcom,bus-freq = <11>;
 					qcom,bus-min = <10>;
 					qcom,bus-max = <12>;
@@ -418,10 +418,10 @@
 				/* Min SVS */
 				qcom,gpu-pwrlevel@6 {
 					reg = <6>;
-					qcom,gpu-freq = <160000000>;
-					qcom,bus-freq = <3>;
-					qcom,bus-min = <3>;
-					qcom,bus-max = <5>;
+					qcom,gpu-freq = <19200000>;
+					qcom,bus-freq = <2>;
+					qcom,bus-min = <2>;
+					qcom,bus-max = <3>;
 				};
 
 				/* XO */
@@ -445,7 +445,7 @@
 				/* NOM_L1 */
 				qcom,gpu-pwrlevel@0 {
 					reg = <0>;
-					qcom,gpu-freq = <647000000>;
+					qcom,gpu-freq = <700000000>;
 					qcom,bus-freq = <13>;
 					qcom,bus-min = <12>;
 					qcom,bus-max = <13>;
@@ -490,10 +490,10 @@
 				/* Min SVS */
 				qcom,gpu-pwrlevel@5 {
 					reg = <5>;
-					qcom,gpu-freq = <160000000>;
-					qcom,bus-freq = <3>;
-					qcom,bus-min = <3>;
-					qcom,bus-max = <5>;
+					qcom,gpu-freq = <19200000>;
+					qcom,bus-freq = <2>;
+					qcom,bus-min = <2>;
+					qcom,bus-max = <3>;
 				};
 
 				/* XO */

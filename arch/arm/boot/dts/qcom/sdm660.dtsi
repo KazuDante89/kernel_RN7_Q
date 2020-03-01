@@ -854,7 +854,7 @@
 	qcom,msm-thermal {
 		compatible = "qcom,msm-thermal";
 		qcom,sensor-id = <1>;
-		qcom,poll-ms = <1000>;
+		qcom,poll-ms = <2000>;
 		qcom,therm-reset-temp = <115>;
 		qcom,core-limit-temp = <70>;
 		qcom,core-temp-hysteresis = <10>;
@@ -1120,7 +1120,7 @@
 			< 370000000 3>,  /* SVS    */
 			< 465000000 4>,  /* SVS_L1 */
 			< 588000000 5>,  /* NOM    */
-			< 647000000 6>,  /* NOM_L1 */
+			< 700000000 6>,  /* NOM_L1 */
 			< 700000000 7>,  /* TURBO */
 			< 750000000 7>;  /* TURBO  */
 		#clock-cells = <1>;
