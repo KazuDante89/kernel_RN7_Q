@@ -45,7 +45,7 @@
 		qcom,panel-supply-entry@0 {
 			reg = <0>;
 			qcom,supply-name = "wqhd-vddio";
-			qcom,supply-min-voltage = <1800000>;
+			qcom,supply-min-voltage = <1700000>;
 			qcom,supply-max-voltage = <1800000>;
 			qcom,supply-enable-load = <32000>;
 			qcom,supply-disable-load = <80>;
@@ -82,8 +82,8 @@
 			qcom,panel-supply-entry@0 {
 				reg = <0>;
 				qcom,supply-name = "wqhd-vddio";
-				qcom,supply-min-voltage = <1800000>;
-				qcom,supply-max-voltage = <1950000>;
+				qcom,supply-min-voltage = <1700000>;
+				qcom,supply-max-voltage = <1800000>;
 				qcom,supply-enable-load = <32000>;
 				qcom,supply-disable-load = <80>;
 			};
@@ -132,8 +132,8 @@
 		qcom,panel-supply-entry@0 {
 			reg = <0>;
 			qcom,supply-name = "wqhd-vddio";
-			qcom,supply-min-voltage = <1800000>;
-			qcom,supply-max-voltage = <1950000>;
+			qcom,supply-min-voltage = <1700000>;
+			qcom,supply-max-voltage = <1800000>;
 			qcom,supply-enable-load = <32000>;
 			qcom,supply-disable-load = <80>;
 		};
@@ -151,7 +151,7 @@
 	qcom,mdss-dsi-pan-enable-dynamic-fps;
 	qcom,mdss-dsi-pan-fps-update = "dfps_suspend_resume_mode";
 	qcom,partial-update-enabled = "single_roi";
-	qcom,panel-roi-alignment = <2 2 4 2 1080 2>;	
+	qcom,panel-roi-alignment = <2 2 4 2 1080 2>;
 	qcom,ulps-enabled;
 	qcom,suspend-ulps-enabled;
 	qcom,mdss-dsi-panel-status-check-mode = "reg_read";
@@ -197,8 +197,8 @@
 		25 1f 09 0a 06 03 04 a0
 		25 1f 09 0a 06 03 04 a0
 		25 1e 08 0a 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <48>;
-	qcom,mdss-dsi-max-refresh-rate = <60>;
+	qcom,mdss-dsi-min-refresh-rate = <55>;
+	qcom,mdss-dsi-max-refresh-rate = <65>;
 };
 
 &dsi_nt36672_jdi_fhd_video {
@@ -217,8 +217,8 @@
                26 21 09 0b 06 03 04 a0
                26 21 09 0b 06 03 04 a0
                26 20 0a 0b 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <48>;
-        qcom,mdss-dsi-max-refresh-rate = <60>;
+	qcom,mdss-dsi-min-refresh-rate = <55>;
+        qcom,mdss-dsi-max-refresh-rate = <65>;
 };
 
 &dsi_nt36672a_shenchao_fhdplus_video {
@@ -237,8 +237,8 @@
                26 21 09 0b 06 03 04 a0
                26 21 09 0b 06 03 04 a0
                26 20 0a 0b 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <48>;
-        qcom,mdss-dsi-max-refresh-rate = <60>;
+	qcom,mdss-dsi-min-refresh-rate = <55>;
+        qcom,mdss-dsi-max-refresh-rate = <61>;
 };
 
 &dsi_nt36672a_e7t_tianma_fhdplus_video {
@@ -247,8 +247,8 @@
                26 21 09 0b 06 03 04 a0
                26 21 09 0b 06 03 04 a0
                26 20 0a 0b 06 03 04 a0];
-	qcom,mdss-dsi-min-refresh-rate = <48>;
-        qcom,mdss-dsi-max-refresh-rate = <60>;
+	qcom,mdss-dsi-min-refresh-rate = <55>;
+        qcom,mdss-dsi-max-refresh-rate = <65>;
 };
 
 &dsi_nt36672a_e7t_shenchao_fhdplus_video {
@@ -268,8 +268,8 @@
                 26 21 09 0b 06 03 04 a0
                 26 21 09 0b 06 03 04 a0
                 26 20 0a 0b 06 03 04 a0];
-        qcom,mdss-dsi-min-refresh-rate = <48>;
-        qcom,mdss-dsi-max-refresh-rate = <60>;
+        qcom,mdss-dsi-min-refresh-rate = <55>;
+        qcom,mdss-dsi-max-refresh-rate = <61>;
 };
 
 &dsi_dual_sharp_video {
